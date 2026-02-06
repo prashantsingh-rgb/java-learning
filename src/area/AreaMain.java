@@ -28,9 +28,9 @@ public class AreaMain {
         c.getCircleArea();
 
         Area a = new Circle(34);
-        a.getArea();   //UpCastingx
-        Circle c = (Circle) new Area("abc");
-        c.getArea(); //DownCasting
-        c.getCircleArea();
+        a.getArea();   //UpCasting
+//        Circle c = (Circle) new Area("abc");
+//        c.getArea(); //DownCasting
+//        c.getCircleArea();
     }
 }
